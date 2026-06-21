@@ -171,7 +171,6 @@
     "interval": 1,
     "return-type": "json",
     "on-click": "sh -c 'if [ -f /tmp/pomo.pid ]; then kill $(cat /tmp/pomo.pid) 2>/dev/null; fi; pomo.sh 15 >/dev/null 2>&1 & echo $! > /tmp/pomo.pid'",
-    "on-click-right": "xdg-terminal-exec"
   },
   "custom/update": {
     "format": "",
